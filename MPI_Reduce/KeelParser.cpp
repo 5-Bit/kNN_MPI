@@ -1,4 +1,14 @@
-//Parse files with the keel format
+/*
+	The Keel parsing module is responsible for reading Keel 
+	formatted input datasets, and parsing them into data structures 
+	representative of a dataset, and its individual rows. 
+	The Keel parser module is designed to be stream based, 
+	and to use the producer/consumer pattern, to allow data 
+	to be efficiently read out of a file, and passed along 
+	to the Command node as needed. 
+	
+*/
+
 
 #include "stdafx.h"
 #include "mpi.h"

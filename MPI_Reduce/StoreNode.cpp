@@ -1,3 +1,9 @@
+/*
+	Store nodes run independent of other nodes, 
+	and are entirely responsible for the storage 
+	and retrieval of data records across the cluster. 
+*/
+
 #include "stdafx.h"
 #include "mpi.h"
 #include "stdio.h"

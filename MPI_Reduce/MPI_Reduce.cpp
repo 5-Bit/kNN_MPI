@@ -1,12 +1,13 @@
 // HelloMPI.cpp : Defines the entry point for the application.
 
+
+// Starts and controls the different nodes.
+
 #include "stdafx.h"
 #include "mpi.h"
 #include "stdio.h"
 #include "stdlib.h"
 #include "KeelParser.h"
-
-//Extra booty
 
 int main(int argc, char* argv[]) {
 
